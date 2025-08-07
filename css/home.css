@@ -3,6 +3,7 @@
     height: auto;
     display: block;
 }
-.RangerImagem .img{
+.RangerImagem img{
     max-inline-size: 100%;
+    border-radius: 20px;
 }
