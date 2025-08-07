@@ -3,6 +3,14 @@
     height: auto;
     display: block;
 }
-.RangerImagem .img{
+.RangerImagem img{
     max-inline-size: 100%;
+}
+
+
+@media (max-width: 768px){
+
+    main p{
+        font-size: 14px;
+    }
 }
