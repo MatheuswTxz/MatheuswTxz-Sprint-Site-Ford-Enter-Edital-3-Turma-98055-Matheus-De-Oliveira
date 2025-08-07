@@ -1,4 +1,8 @@
-main .ImagemPrincipal{
-    max-width: 70%;
+.RangerImagem{
+    max-width: 100%;
     height: auto;
+    display: block;
+}
+.RangerImagem .img{
+    max-inline-size: 100%;
 }

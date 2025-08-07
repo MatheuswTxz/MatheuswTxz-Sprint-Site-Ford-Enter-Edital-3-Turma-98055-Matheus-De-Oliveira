@@ -71,6 +71,6 @@
 }
 
 .inputGrupo textarea {
-    resize: vertical;
-    min-height: 50px
+    resize: none;
+    min-height: 50px;
 }
