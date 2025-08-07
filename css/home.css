@@ -2,3 +2,55 @@
     max-width: 100%;
     height: auto;
 }
+
+.RangerImagem img{
+    border-radius: 15px;
+}
+
+.ImagemPrincipal{
+    max-width: 300px;
+}
+
+
+ footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #1b3571;
+        color: #fff;
+        padding: 10px 40px;
+        font-size: 20px;
+      
+        flex-wrap: wrap; /* Permite quebrar a linha se não couber */
+        gap: 15px; /* Espaço entre as “caixinhas” se quebrar */
+      }
+      
+
+.RedesSociais{
+    display: flex;
+    gap: 15px;
+
+}
+
+.RedesSociais p{
+    margin: 3px 0;
+}
+
+.RedesSociais img,
+.logo_footer img{
+    height: 15px;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.RedesSociais img:hover{
+    transform: scale(1.1);
+}
+
+
+@media (max-width: 768px){
+
+    main p{
+        font-size: 14px;
+    }
+}
